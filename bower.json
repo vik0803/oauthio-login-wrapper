@@ -1,0 +1,25 @@
+{
+  "name": "oauthiologin",
+  "version": "1.0.0",
+  "homepage": "https://github.com/steoo/oauthio-login-wrapper",
+  "authors": [
+    "Steoo <esseiproject@gmail.com>"
+  ],
+  "description": "A custom wrapper to use oauth javascript sdk for social login",
+  "main": "assets/js/main.js",
+  "keywords": [
+    "oauth",
+    "social",
+    "login",
+    "facebook",
+    "twitter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Oauth Social Login</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<div class="container">
+  <a class="block facebook" href="#">facebook</a>
+  <a class="block twitter" href="#">twitter</a>
+  <a class="block gplus" href="#">google</a>
+</div>
+<script>
+    /* Put your Oauth.io public_key here */
+    window.global = {
+      public_key: ""
+    };
+</script>
+<script src="vendor/oauth-js/dist/oauth.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
